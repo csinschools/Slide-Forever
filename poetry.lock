@@ -1,0 +1,44 @@
+[[package]]
+category = "main"
+description = "A simple UI library wrapping the REMI library"
+name = "csinscapp"
+optional = false
+python-versions = "*"
+version = "0.1.4"
+
+[package.dependencies]
+remi = ">=2020.3.10"
+
+[[package]]
+category = "main"
+description = "Python REMote Interface library"
+name = "remi"
+optional = false
+python-versions = "*"
+version = "2020.3.10"
+
+[[package]]
+category = "main"
+description = "python goto commanded implemented in trace"
+name = "trace-goto"
+optional = false
+python-versions = "*"
+version = "0.0.2.2"
+
+[metadata]
+content-hash = "816bac16ec3fe51540d442ef1de54dc9bef956a0f73214a713812e837f12b305"
+python-versions = "^3.8"
+
+[metadata.files]
+csinscapp = [
+    {file = "csinscapp-0.1.4-py3-none-any.whl", hash = "sha256:0b1551d2477e0b2b4ee07ffbba3e9d4e7d8c2153b7b955f6c11152f12913f6c0"},
+    {file = "csinscapp-0.1.4.tar.gz", hash = "sha256:988c701bba6fe2b47a97fc84fa7689f901cd0be3a6570caf174a45622f58b51a"},
+]
+remi = [
+    {file = "remi-2020.3.10-py3-none-any.whl", hash = "sha256:73e833090298b446dcb4269ce9ab8078a080db235b4d33674a481c88cb4af1cc"},
+    {file = "remi-2020.3.10.tar.gz", hash = "sha256:4cb8eee398502f547b1ea5cf19304ce46bdc537a29b79066fda3e5d05130fdc4"},
+]
+trace-goto = [
+    {file = "trace_goto-0.0.2.2-py3-none-any.whl", hash = "sha256:b930d257af5bc734d675c3717a2c88a0cb7691b2ffdcdd01076d0727729e01ee"},
+    {file = "trace_goto-0.0.2.2.tar.gz", hash = "sha256:3603c3dea0b418f72f9393ed679749d2c3ccd8d655b8511432a9526f94936118"},
+]
